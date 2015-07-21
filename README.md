@@ -19,7 +19,7 @@ A couple of environment variables are required before you can run the script...
 ### Groupon
 This script takes a couple of arguements, '--from' and '--to' for the to/from dates to test. If omitted it will use todays date for both, but bear in mind the importer needs to have been run on the specified date
 ```sh
-$ groupon/test.js -q groupon/test.py --from=2015-07-02 --to=2015-07-02
+$ pytest -q groupon/test.py --from=2015-07-02 --to=2015-07-02
 ```
 
 ## Output
