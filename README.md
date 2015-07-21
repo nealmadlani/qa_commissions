@@ -5,6 +5,8 @@ Various scripts for testing commissions importers.
 ```sh
 $ git clone https://github.com/JoeFoulkes/qa_commissions.git
 $ cd qa_commissions
+$ brew install mysql
+$ sudo pip install virtualenvwrapper
 $ mkvirtualenv qa_commissions {only make it once, use 'workon' thereafter}
 $ pip install -r requirements.txt
 ```
